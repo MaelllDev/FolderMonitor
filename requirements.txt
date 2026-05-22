@@ -1,0 +1,18 @@
+# FolderMonitor — Dependências Python
+# Instalar com: pip install -r requirements.txt
+
+# Monitoramento de sistema de arquivos via eventos do SO (ReadDirectoryChangesW no Windows)
+watchdog>=4.0.0
+
+# Ícone na bandeja do sistema (system tray)
+pystray>=0.19.5
+
+# Geração de ícones e imagens
+Pillow>=10.0.0
+
+# Interface moderna (opcional, mas recomendada)
+# Se não quiser instalar, o app usará tkinter puro (já incluso no Python)
+customtkinter>=5.2.0
+
+# Empacotamento em .exe (somente para build, não necessário para rodar)
+pyinstaller>=6.0.0
